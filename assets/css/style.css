@@ -7,13 +7,24 @@ body {
 }
 
 img {
-    width: 10%;
+    width: 25%;
+}
+h2{
+    color:rgb(56, 6, 6)
 }
 
 .card{
     background-color: black;
   
 }
-.btn-link{
-    color:red
+
+.html5-video-player {
+    width: 57%;
+    height: 100%;
+   
 }
+
+.btn-link{
+    color:red;
+}
+

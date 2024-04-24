@@ -1,7 +1,19 @@
 body {
+    background-image: url(https://i.pinimg.com/originals/48/bf/37/48bf3741a253b794c6abe661b3a94d3b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 img {
     width: 10%;
+}
+
+.card{
+    background-color: black;
+  
+}
+.btn-link{
+    color:red
 }

@@ -64,10 +64,12 @@ musica.playMultimedia();
 
 let iframePelicula = document.getElementById("peliculas")
 let pelicula = new Reproductor ("https://www.youtube.com/embed/JpUd4BS7yI0",iframePelicula);
+pelicula.setInicio(30);
 pelicula.playMultimedia();
 
 let iframeSerie = document.getElementById("series")
 let serie = new Reproductor ("https://www.youtube.com/embed/mXd1zTwcQ18?si=aqlT6mseq08JpX8s",iframeSerie);
+serie.setInicio(10);
 serie.playMultimedia();
 
 

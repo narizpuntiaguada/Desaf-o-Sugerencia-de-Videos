@@ -75,21 +75,3 @@ serie.playMultimedia();
 
 
 
-// url serie : "https://www.youtube.com/embed/mXd1zTwcQ18?si=aqlT6mseq08JpX8s"
-// url musica : "https://www.youtube.com/embed/T-q9Ww3-F9U"
-// url pelicula :"https://www.youtube.com/embed/JpUd4BS7yI0"
-
-
-
-
-
-// ERROR
-// let cargarVideo = (() => {
-//     let insertarVideo = (url,id)=> {
-//         id.setAttribute("src",url);
-//     }
-// return {
-//     mostrarVideo:(url.id) => insertarVideo(url,id)
-// }
-
-// })();

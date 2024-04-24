@@ -58,17 +58,17 @@ let cargarVideo = (() => {
 
 // instanciar
 let iframeMusica = document.getElementById("musica")
-let musica = new Reproductor ("https://www.youtube.com/embed/T-q9Ww3-F9U",iframeMusica);
-musica.setInicio(20);
+let musica = new Reproductor ("https://www.youtube.com/embed/s_O7q9RIep4?si=zN6Y1brAJEFzILdS",iframeMusica);
+musica.setInicio(7);
 musica.playMultimedia();
 
 let iframePelicula = document.getElementById("peliculas")
-let pelicula = new Reproductor ("https://www.youtube.com/embed/JpUd4BS7yI0",iframePelicula);
+let pelicula = new Reproductor ("https://www.youtube.com/embed/xiC2iXTXHxw?si=yxFE12ZvBMJAZ34u",iframePelicula);
 pelicula.setInicio(30);
 pelicula.playMultimedia();
 
 let iframeSerie = document.getElementById("series")
-let serie = new Reproductor ("https://www.youtube.com/embed/mXd1zTwcQ18?si=aqlT6mseq08JpX8s",iframeSerie);
+let serie = new Reproductor ("https://www.youtube.com/embed/rCj-Fb1OmXg?si=1A22Yvk_ihxYgjNq",iframeSerie);
 serie.setInicio(10);
 serie.playMultimedia();
 
